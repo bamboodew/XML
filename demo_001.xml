@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML 声明文件的可选部分，如果存在需要放在文档的第一行-->
+
+<!--XML 被设计用来传输和存储数据。-->
+<!--HTML 被设计用来显示数据。-->
+<note date="12/9/2019">
+    <to>Tove</to>
+
+    <from>Jane</from>
+
+    <heading>Reminder</heading>
+
+    <body>Don't forget me this weekend!</body>
+</note>
