@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>XML DOM</title>
+	</head>
+	<body>
+		<div>
+			<b>To:</b><span id="to"></span><br/>
+			<b>From:</b><span id="from"></span><br/>
+			<b>Message:</b><span id="message"></span><br/>
+		</div>
+		
+		<script>
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest(); // code for IE7+, Firefox, Chrome, Opera, Safari
+        } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); // code for IE6, IE5
+        }
+
+        xmlhttp.open("GET", "demo_001.xml", false);
+        xmlhttp.send();
+        xmlDoc = xmlhttp.responseXML;
+
+        document.getElementById("to").innerHTML = xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
+        document.getElementById("from").innerHTML = xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+        document.getElementById("message").innerHTML = xmlDoc.getElementsByTagName("message")[0].childNodes[0].nodeValue;
+		
+		</script>
+	</body>
+</html>
