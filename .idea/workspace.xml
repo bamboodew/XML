@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1343ae25-4d75-4654-8404-e1590a75dc97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_004.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_005.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cd_catalog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_006_XML_HTML.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_001.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
       <recent name="D:\MyData\jinshuang1\WebstormProjects\XML" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.demo_005.html">
+  <component name="RunManager" selected="JavaScript Debug.demo_006_XML_HTML.html">
     <configuration name="Unnamed" type="FirefoxRemoteDebugType" nameIsGenerated="true">
       <method v="2" />
     </configuration>
@@ -52,13 +50,18 @@
     <configuration name="demo_005.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/XML/demo_005.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="demo_006_XML_HTML.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/XML/demo_006_XML_HTML.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Firefox Remote.Unnamed" />
       <item itemvalue="JavaScript Debug.demo_004.html" />
       <item itemvalue="JavaScript Debug.demo_005.html" />
+      <item itemvalue="JavaScript Debug.demo_006_XML_HTML.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.demo_006_XML_HTML.html" />
         <item itemvalue="JavaScript Debug.demo_005.html" />
         <item itemvalue="JavaScript Debug.demo_004.html" />
       </list>
@@ -86,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575881118053</updated>
-      <workItem from="1575881119272" duration="7247000" />
+      <workItem from="1575881119272" duration="11222000" />
     </task>
     <servers />
   </component>
