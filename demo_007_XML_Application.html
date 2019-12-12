@@ -41,6 +41,17 @@
                 displayCD();
             }
         }
+
+        function displayCDInfo(i) {
+            const artist = (x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue);
+            const title = (x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+            const year = (x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue);
+            const country = (x[i].getElementsByTagName("COUNTRY")[0].childNodes[0].nodeValue);
+            const company = (x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue);
+            const price = (x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+            const txt = "Artist: " + artist + "<br>Title: " + title + "<br>Year: " + year + "<br>Country: " + country + "<br>Company: " + company + "<br>Price: " + price;
+            document.getElementById("showCD_").innerHTML = txt;
+        }
 		</script>
 	</head>
 	<body onload="displayCD()"> <!-- displayCD() 函数在页面加载时调用 -->
@@ -48,5 +59,21 @@
 		<br>
 		<input type="button" onclick="previous()" value="<<"/>
 		<input type="button" onclick="next()" value=">>"/>
+		<br>
+		<br>
+		<div id="showCD_"><br><br><br><br><br><br></div>
+		<script>
+        document.write("<table border='1'>");
+        document.write("<table border='1'>");
+        for (let i = 0; i < x.length; i++) {
+            document.write("<tr onclick='displayCDInfo(" + i + ")'>");
+            document.write("<td>");
+            document.write(x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue);
+            document.write("</td><td>");
+            document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+            document.write("</td></tr>");
+        }
+        document.write("</table>");
+		</script>
 	</body>
 </html>
