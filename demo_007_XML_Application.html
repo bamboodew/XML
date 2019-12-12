@@ -26,9 +26,27 @@
             const txt = "Artist: " + artist + "<br/>Title: " + title + "<br/>Year: " + year;
             document.getElementById("showCD").innerHTML = txt;
         }
+
+        // 为了向上面的实例添加导航（功能），需要创建 next() 和 previous() 两个函数：
+        function next() {
+            if (i < x.length - 1) { // i = x.length - 1 时，x[i]是最后一个。
+                i++;
+                displayCD();
+            }
+        }
+
+        function previous() {
+            if (i > 0) {
+                i--;
+                displayCD();
+            }
+        }
 		</script>
 	</head>
-	<body onload="displayCD()">
+	<body onload="displayCD()"> <!-- displayCD() 函数在页面加载时调用 -->
 		<div id="showCD"></div>
+		<br>
+		<input type="button" onclick="previous()" value="<<"/>
+		<input type="button" onclick="next()" value=">>"/>
 	</body>
 </html>
