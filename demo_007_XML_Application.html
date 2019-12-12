@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<script>
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.open("GET", "cd_catalog.xml", false);
+        xmlhttp.send();
+        xmlDoc = xmlhttp.responseXML;
+
+        /*
+         从第一个 CD 元素中获取 XML 数据，然后在 id="showCD" 的 HTML 元素中显示数据。
+         */
+        let x = xmlDoc.getElementsByTagName("CD");
+        i = 0;
+
+        function displayCD() {
+            const artist = (x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue);
+            const title = (x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+            const year = (x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue);
+            const txt = "Artist: " + artist + "<br/>Title: " + title + "<br/>Year: " + year;
+            document.getElementById("showCD").innerHTML = txt;
+        }
+		</script>
+	</head>
+	<body onload="displayCD()">
+		<div id="showCD"></div>
+	</body>
+</html>

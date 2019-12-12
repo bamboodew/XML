@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1343ae25-4d75-4654-8404-e1590a75dc97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cd_catalog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_006_XML_HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_007_XML_Application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_006_XML_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_006_XML_HTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <recent name="D:\MyData\jinshuang1\WebstormProjects\XML" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.demo_006_XML_HTML.html">
+  <component name="RunManager" selected="JavaScript Debug.demo_007_XML_Application.html">
     <configuration name="Unnamed" type="FirefoxRemoteDebugType" nameIsGenerated="true">
       <method v="2" />
     </configuration>
@@ -53,14 +53,19 @@
     <configuration name="demo_006_XML_HTML.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/XML/demo_006_XML_HTML.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="demo_007_XML_Application.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/XML/demo_007_XML_Application.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Firefox Remote.Unnamed" />
       <item itemvalue="JavaScript Debug.demo_004.html" />
       <item itemvalue="JavaScript Debug.demo_005.html" />
       <item itemvalue="JavaScript Debug.demo_006_XML_HTML.html" />
+      <item itemvalue="JavaScript Debug.demo_007_XML_Application.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.demo_007_XML_Application.html" />
         <item itemvalue="JavaScript Debug.demo_006_XML_HTML.html" />
         <item itemvalue="JavaScript Debug.demo_005.html" />
         <item itemvalue="JavaScript Debug.demo_004.html" />
@@ -89,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575881118053</updated>
-      <workItem from="1575881119272" duration="11222000" />
+      <workItem from="1575881119272" duration="13506000" />
     </task>
     <servers />
   </component>
@@ -105,9 +110,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="146" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575881823877" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1575884868180">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1576144906192">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1575884868180" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1576144906192" />
   </component>
 </project>
